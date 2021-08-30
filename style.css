@@ -19,6 +19,9 @@ h1{
     width: 100%;
    
 }
+p{
+    color: dimgray;
+}
 
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -48,6 +51,7 @@ section{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
     height: 60%;
+    width: 30%;
 }
 .exp-area{
     background-repeat: no-repeat;
@@ -57,14 +61,14 @@ section{
 #full-stack{
     border-left: 5px solid;
     border-image: linear-gradient(180deg,lightSalmon,green);
- 
+
     border-image-slice: 1;
 }
 #baby-stack{
     border-left: 5px solid;
     border-image: linear-gradient(180deg,blue,cyan);
     border-image-slice: 1;
-    width: 30%;
+  
 }
 footer{
     text-align: center;
